@@ -1,0 +1,109 @@
+@charset "UTF-8";
+
+:root {
+    --vermelho: #f23545;
+    --azul-claro: #1d3273;
+    --azul-escuro: #253759;
+    --quase-branco: #f2f2f2;
+    --bege: #d9ab73;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0px;
+    background-image: linear-gradient(to bottom , var(--azul-claro) 30%, var(--azul-escuro));
+}
+
+header {
+    background-image: url(imagens/tbne.jpg);
+}
+
+header h1 {
+    background-color: var(--vermelho);
+    color: var(--quase-branco); 
+    font-size: 3em;
+    text-shadow: 5px 5px 5px rgba(0, 0, 0, 0.4);
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+header nav {
+    background-color: var(--vermelho);
+    margin: auto;
+    text-align: center;
+    padding: 5px;
+}
+
+header a {
+    font-size: 1.4em;
+    margin: 5px  30px;
+    color: var(--quase-branco);
+    text-decoration: none;
+    transition-duration: 0.2s;
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.4);
+}
+
+header a:hover {
+    background-color: var(--quase-branco);
+    color: var(--vermelho);
+    border-radius: 5px;
+}
+
+main {
+    background-color: var(--quase-branco);
+    margin: 40px 160px;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+main h1 {
+    text-align: center;
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.4);
+}
+
+main p {
+    text-indent: 40px;
+    font-size: 1.4em;
+    text-align: justify;
+}
+
+main a {
+    text-decoration: none;
+    color: black;
+}
+
+main a:hover {
+    text-decoration: underline;
+}
+
+footer {
+background-color: var(--bege);
+text-align: center;
+}
+
+div.rede_social_link_rodape {
+    display: inline-block;
+    margin: 10px 50px;
+    padding: 5px;
+    width: 15%;
+    transition-duration: 0.5s;
+}
+
+div.rede_social_link_rodape:hover {
+    background-color: var(--quase-branco);
+    border-radius: 10px;
+}
+
+div.rede_social_link_rodape > a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    border-radius: 5px;
+    display: block;
+    margin: 5px;
+}
+
+div.rede_social_link_rodape > img {
+    display: block;
+    margin: auto;
+}
