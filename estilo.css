@@ -51,7 +51,9 @@ header a:hover {
 
 main {
     background-color: var(--quase-branco);
-    margin: 40px 160px;
+    min-width: 10%;
+    max-width: 90%;
+    margin: auto;
     padding: 10px;
     border-radius: 5px;
 }
