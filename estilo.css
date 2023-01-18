@@ -85,21 +85,21 @@ background-color: var(--bege);
 text-align: center;
 }
 
-div.rede_social_link_rodape {
+a.rede_social_link_rodape {
     display: inline-block;
     margin: 10px 50px;
     padding: 5px;
     width: 15%;
     transition-duration: 0.5s;
+    text-decoration: none;
 }
 
-div.rede_social_link_rodape:hover {
+a.rede_social_link_rodape:hover {
     background-color: var(--quase-branco);
     border-radius: 10px;
 }
 
-div.rede_social_link_rodape > a {
-    text-decoration: none;
+a.rede_social_link_rodape > p {
     color: black;
     font-weight: bold;
     border-radius: 5px;
@@ -107,7 +107,7 @@ div.rede_social_link_rodape > a {
     margin: 5px;
 }
 
-div.rede_social_link_rodape > img {
+a.rede_social_link_rodape > img {
     display: block;
     margin: auto;
 }
