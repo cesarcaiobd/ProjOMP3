@@ -80,6 +80,23 @@ main a:hover {
     text-decoration: underline;
 }
 
+main table {
+    border-collapse: collapse;
+    margin: auto;
+    width: 90%;
+}
+
+main td {
+    border: 1px solid black;
+    text-align: center;
+    padding: 10px;
+}
+
+main caption {
+    padding: 30px;
+    font-size: 2em;
+}
+
 footer {
 background-color: var(--bege);
 text-align: center;
